@@ -1,8 +1,10 @@
 
 ----
+
 # dsa #leetcode
 
 ----
+
 # arrays
 
 # [Two-Sum](https://leetcode.com/problems/two-sum/description/)
@@ -22,7 +24,8 @@ class Solution:
 
 Explications :
 
-# 1 :
+# 1
+
 on utilise enumerate pour avoir l'index: i et le chiffre actuel dans la loop: n
 
 # 2 on fait target - n pour savoir si la sub_target est dans la list
@@ -34,6 +37,7 @@ Time complexity :
 O(n²)
 
 ---
+
 # stacks
 
 # [Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/)
@@ -93,7 +97,7 @@ Time complexity :
 
 O(n) a cause de la for loop.
 
----
+----
 
 # Best time to buy and sell stock
 
@@ -138,6 +142,7 @@ class Solution:
 ```
 
 ---
+
 # arrays #twopointers
 
 # [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)
@@ -182,6 +187,7 @@ Exemple avec a = [-7, -6, -2, -1, 2, 3, 5]
 -6 + 5 = -1 < -2 donc la comme on sait que la liste est rangé dans l'ordre ca veux dire que toutes les valeurs qui sont entre -6 et 5 vont etre des pairs qui sont < -2 car si on reduit notre R on a : -6 + 3 = -3 < -2 etc donc c'est pour cela qu'on fait R - L.
 
 ---
+
 # arrays #leetcode #hashmap
 
 # [Majority Element](https://leetcode.com/problems/majority-element/)
@@ -239,6 +245,7 @@ list = [2,1,1,3,3,1,1]
 Itérations finis donc res = 1
 
 ---
+
 # arrays #leetcode
 
 # [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
@@ -259,6 +266,7 @@ class Solution:
 on sort la list comme ca tous les nombres sont bien placés, puis on regarde si 2 nombres cote a cote sont egaux si ou
 
 ---
+
 # arrays #leetcode
 
 # [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
